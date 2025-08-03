@@ -1,0 +1,53 @@
+/****** Main Styling ******/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #FFF;
+  background-color: #000;
+  text-align: center;
+}
+
+.container {
+  padding: 0;
+  margin-top: 40px;
+}
+
+.footer {
+  margin-top: 60px;
+}
+
+a {
+  color: #2574A9;
+}
+
+input {
+  display: block;
+  position: relative;
+  margin: 10px auto;
+  background-color:#222;
+  color:#fff;
+}
+
+input#button {
+  width: 230px;
+}
+input[type=file]::file-selector-button {
+  color:#fff;
+  background-color: #222;
+  transition: 1s;
+}
+
+input[type=file]::file-selector-button:hover {
+  color:#fff;
+  background-color: #444;
+}
+
+.view {
+  position:relative;
+  margin: auto;
+  margin-top: 40px;
+  border: 1px  solid  #aaa;
+  padding: 20px;
+  width: 60%;
+}

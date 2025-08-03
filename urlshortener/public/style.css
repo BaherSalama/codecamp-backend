@@ -1,0 +1,71 @@
+/****** Main Styling ******/
+html{
+	background-color: #000000;
+}
+
+fieldset{
+  object-fit: contain;
+  width: fit-content;
+  margin: auto;
+}
+
+input{
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  color:white;
+  cursor: pointer;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #222;
+	background-color: #000000;
+	color:white;
+	text-align: center;
+	line-height: 1.4em;
+}
+
+.container {
+	padding: 0;
+	margin-top: 40px;
+}
+
+h3 {
+  margin-top: 30px;
+}
+
+hr {
+	margin: 25px;
+}
+
+.footer {
+	margin-top: 40px;
+}
+
+.code_container{
+	text-align:left;
+	margin:auto;
+	width: fit-content;
+	background: #222;
+}
+
+code {
+  font-family: monospace;
+  padding: 2px;
+  text-align:left;
+  white-space: pre-wrap;
+}
+
+ul {
+	list-style-type: none;
+	padding:0px;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+a {
+	color: #2574A9;
+}
